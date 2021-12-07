@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SS/mE7lvLiMiASTS9vrKrTBja6dhDpKtYp4NpIolW1jyzjqEAWCSUEWs9G/9rvM+pyqgS2ZdYlrq6u6f0azC2Q==",
+  "success": true,
+  "projectFilePath": "C:\\GITHUB\\BOOTCAMP\\.net\\Exercise 1\\Problem Description_ Skeleton\\Exercise1\\SUS.HTTP\\SUS.HTTP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\I am\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\I am\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
