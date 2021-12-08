@@ -14,12 +14,14 @@ namespace CarShop.Controllers
   public  class IssuesController:Controller
     {
         private readonly IIssuesService issuesService;
+        private readonly IUsersService usersService;
         private readonly ICarsService carsService;
 
-        public IssuesController(ICarsService carsService, IIssuesService issuesService)
+        public IssuesController(ICarsService carsService, IIssuesService issuesService, IUsersService usersService)
         {
             this.carsService = carsService;
             this.issuesService = issuesService;
+            this.usersService = usersService;
         }
 
         public HttpResponse CarIssues(String carId)
@@ -69,6 +71,11 @@ namespace CarShop.Controllers
             if (!this.IsUserSignedIn())
             {
                 return this.Redirect("/Users/Login");
+            }
+            string userId = this.GetUserId();
+            if (!usersService.IsUserMechanic(userId))
+            {
+                return this.Error("Only Mechanick can fixed the Issues");
             }
             string carId = issuesService.Fix(issueId);
             if (carId==null)

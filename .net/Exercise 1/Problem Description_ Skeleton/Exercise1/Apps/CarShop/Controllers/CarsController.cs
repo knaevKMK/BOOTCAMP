@@ -38,7 +38,7 @@
                     ImageUrl=e.PictureUrl,
                     PlateNumber=e.PlateNumber,
                     RemainingUssues=issuesService.getAll(e.Id).Where(e=>!e.isFixed).Count(),
-                    FixedUssues= issuesService.getAll(e.Id).Count()
+                    FixedUssues= issuesService.getAll(e.Id).Where(e=>e.isFixed).Count()
                 })
                 .ToList();
             return this.View(cars);
