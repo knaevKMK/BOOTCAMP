@@ -21,18 +21,34 @@
 
         public HttpResponse Login()
         {
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/Cars/All");
+            }
             return this.View();
         }
         [HttpPost]
         public HttpResponse Login(LoginBindingModel model)
         {
-            string id = usersService.GetUserId(model.Username, model.Password);
+
+            string id = "";
+            try
+            {
+              id=usersService.GetUserId(model.Username, model.Password);
+            }
+            catch (Exception e) {
+                return this.Error(e.Message);
+            }
             this.SignIn(id);
             return this.Redirect("/");
         }
 
         public HttpResponse Register()
         {
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/Cars/All");
+            }
             return this.View();
         }
         [HttpPost]
@@ -43,8 +59,13 @@
             {
                 return Redirect("/Users/Register");
             }
-
-            usersService.Create(model.Username, model.Email, model.Password, model.UserType);
+            try
+            {
+                usersService.Create(model.Username, model.Email, model.Password, model.UserType);
+            }
+            catch (Exception e) {
+                return this.Error(e.Message);
+            }
             return this.Redirect("/Users/Login");
         }
         public HttpResponse Logout() {

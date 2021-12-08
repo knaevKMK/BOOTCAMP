@@ -17,7 +17,7 @@ public    class Car
         public string PictureUrl { get; set; }
         [Required]
         [RegularExpression("[A-Z]{2}[1-9]{4}[A-Z]{2}")]
-        public string PalteNumber { get; set; }
+        public string PlateNumber { get; set; }
         [Required]
         public string OwnerId { get; set; }
         public virtual User Owner { get; set; }

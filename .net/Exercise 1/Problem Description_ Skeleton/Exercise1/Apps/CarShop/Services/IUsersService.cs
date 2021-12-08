@@ -1,4 +1,6 @@
-﻿namespace CarShop.Services
+﻿using CarShop.Data.Models;
+
+namespace CarShop.Services
 {
     public interface IUsersService
     {
@@ -9,5 +11,6 @@
         bool IsUsernameAvailable(string username);
 
         public bool IsUserMechanic(string Userid);
+        User getById(string id);
     }
 }

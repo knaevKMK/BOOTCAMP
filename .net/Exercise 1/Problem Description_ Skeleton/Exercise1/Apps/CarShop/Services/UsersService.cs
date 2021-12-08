@@ -28,6 +28,11 @@ namespace CarShop.Services
             data.SaveChangesAsync();
         }
 
+        public User getById(string id)
+        {
+            return data.Users.FirstOrDefault(e => e.Id.Equals(id));
+        }
+
         public string GetUserId(string username, string password)
         {
          return   data.Users.FirstOrDefault(e => e.Username.Equals(username) && e.Password.Equals(password)).Id;
@@ -35,7 +40,10 @@ namespace CarShop.Services
 
         public bool IsUserMechanic(string Userid)
         {
-            User user = data.Users.FirstOrDefault(e => e.Id.Equals(Userid));
+            User user = this.getById(Userid);
+            if (user == null) {
+                return false;
+            }
             return user.isMechanic;
         }
 
