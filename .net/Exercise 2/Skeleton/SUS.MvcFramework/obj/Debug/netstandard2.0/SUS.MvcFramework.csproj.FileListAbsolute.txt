@@ -1,0 +1,12 @@
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.deps.json
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.dll
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.pdb
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.dll
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.AssemblyReference.cache
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfoInputs.cache
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfo.cs
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.dll
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.pdb

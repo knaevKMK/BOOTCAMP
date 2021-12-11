@@ -1,0 +1,10 @@
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.deps.json
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.dll
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csproj.AssemblyReference.cache
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfoInputs.cache
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfo.cs
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csproj.CoreCompileInputs.cache
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.dll
+C:\GITHUB\BOOTCAMP\.net\Exercise 2\Skeleton\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.pdb
