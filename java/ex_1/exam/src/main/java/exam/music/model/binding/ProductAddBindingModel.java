@@ -2,7 +2,10 @@ package exam.music.model.binding;
 
 import exam.music.model.enums.CategoryEnum;
 import exam.music.model.enums.SexEnum;
+import org.hibernate.validator.constraints.Length;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import java.math.BigDecimal;
@@ -17,7 +20,9 @@ public class ProductAddBindingModel {
     public ProductAddBindingModel() {
     }
 
-    @NotNull(message = "Name required")
+    @NotBlank(message = "Name must not be blank")
+    @NotNull(message = "Name must  not be null")
+    @NotEmpty(message = "Name must  not be empty")
     public String getName() {
         return name;
     }
@@ -26,7 +31,9 @@ public class ProductAddBindingModel {
         this.name = name;
     }
 
-    @NotNull(message = "Name required")
+    @NotBlank(message = "Description must not be blank")
+    @NotNull(message = "Description must  not be null")
+    @NotEmpty(message = "Description must  not be empty")
     public String getDescription() {
         return description;
     }
@@ -35,7 +42,8 @@ public class ProductAddBindingModel {
         this.description = description;
     }
 
-    @Positive
+    @NotNull(message = "Price must  not be null")
+    @Positive(message = "Price must be positive number")
     public BigDecimal getPrice() {
         return price;
     }
@@ -44,7 +52,7 @@ public class ProductAddBindingModel {
         this.price = price;
     }
 
-    @NotNull(message = "Category required")
+    @NotNull(message = "Category must  not be null")
     public CategoryEnum getCategory() {
         return category;
     }
@@ -53,7 +61,7 @@ public class ProductAddBindingModel {
         this.category = category;
     }
 
-    @NotNull(message = "Gender required")
+    @NotNull(message = "Sex must  not be null")
     public SexEnum getSex() {
         return sex;
     }

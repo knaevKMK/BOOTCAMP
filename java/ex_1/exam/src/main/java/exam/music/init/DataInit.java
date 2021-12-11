@@ -3,7 +3,9 @@ package exam.music.init;
 import exam.music.service.CategoryService;
 import exam.music.service.SexService;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DataInit implements CommandLineRunner {
 
     private final CategoryService categoryService;
