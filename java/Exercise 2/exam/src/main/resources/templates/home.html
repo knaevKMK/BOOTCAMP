@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include= "~{/fragments/head.html}"></th:block>
+</head>
+<body>
+<div class="page-container">
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <th:block th:include="~{/fragments/nav.html}"></th:block>
+        </nav>
+    </header>
+    <main class="content-wrap">
+        <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Tasks</span></h1>
+        <hr class="hr-3 w-75 bg-white"/>
+        <form class="mx-auto w-75 " th:each="o : ${all}" th:object="${o}" >
+
+            <div class="card-group task-card">
+                <div class="card">
+
+                    <div class="card-title">
+                        <h5 class="card-title">Name</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small th:text="*{name}" >Repair Laptop</small>
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-title">
+                        <h5 class="card-title">Assigned to</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small th:text="*{userName}" >George</small>
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="card-title">
+                        <h5 class="card-title">Classification</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small th:text="*{classification}" th:class="*{'classifications ' + classification.name()}">SUPPORT</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <h5 class="card-title">Due Date</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small th:text="*{dueDate}" >2020-08-30</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">
+                        <h5 class="card-title">Progress</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small th:text="*{progress}" >OPEN</small>
+                    </div>
+                </div>
+
+                <a th:href="@{/tasks/progress/(id=*{id})}" class="button prBtn">Progress</a>
+            </div>
+
+        </form>
+    </main>
+
+    <footer class="footer">
+        <th:block th:include="~{/fragments/footer.html}"></th:block>
+    </footer>
+
+</div>
+</body>
+</html>
