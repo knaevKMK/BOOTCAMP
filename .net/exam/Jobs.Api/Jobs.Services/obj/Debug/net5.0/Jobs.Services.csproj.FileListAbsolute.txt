@@ -1,0 +1,17 @@
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.csproj.AssemblyReference.cache
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.AssemblyInfoInputs.cache
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.AssemblyInfo.cs
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.csproj.CoreCompileInputs.cache
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Services.deps.json
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Services.runtimeconfig.json
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Services.runtimeconfig.dev.json
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Services.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\ref\Jobs.Services.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Services.pdb
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Domain.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\bin\Debug\net5.0\Jobs.Domain.pdb
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\ref\Jobs.Services.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.pdb
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Services\obj\Debug\net5.0\Jobs.Services.genruntimeconfig.cache

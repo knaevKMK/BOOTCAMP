@@ -1,0 +1,12 @@
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\bin\Debug\net5.0\Jobs.Domain.deps.json
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\bin\Debug\net5.0\Jobs.Domain.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\bin\Debug\net5.0\ref\Jobs.Domain.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\bin\Debug\net5.0\Jobs.Domain.pdb
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.csproj.AssemblyReference.cache
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.AssemblyInfoInputs.cache
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.AssemblyInfo.cs
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.csproj.CoreCompileInputs.cache
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\ref\Jobs.Domain.dll
+C:\GITHUB\BOOTCAMP\.net\exam\Jobs.Api\Jobs.Domain\obj\Debug\net5.0\Jobs.Domain.pdb
